@@ -1,0 +1,60 @@
+.container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(240, 229, 229);
+  padding: 4px;
+  border-radius: 5px;
+  width: 20rem;
+  height: fit-content;
+  margin: 10px;
+  p {
+    .span {
+      color: rgb(194, 194, 5);
+      
+    }
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(1, 44, 1);
+    color: white;
+    font-weight: 600;
+    margin:  10px;
+  }
+}
+.images {
+  height: 12rem;
+  width: 12rem;
+  transform: translateX(3rem);
+  border: 1px solid red;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 20%;
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 38, 60);
+  color: white;
+  font-weight: 600;
+  transform: translate(17.7rem, -1rem);
+  border: 2px solid;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.votos {
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    span {
+        border-radius: 5px;
+        text-align: center;
+        width: 4rem;
+        background-color: green;
+        margin: 3px 10px;
+    }
+}

@@ -1,0 +1,4 @@
+goals: To make a portal to see who is the best person, via voting, and  go to person/object profile if clicked.
+
+next: setup the list of people adequate to be voted.
+next: 
