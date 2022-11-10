@@ -1,10 +1,13 @@
 import React from "react";
 import classes from "./PeopleItem.module.scss";
-import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 const PeopleItem = ({ name, code, skill, src }) => {
+
+
   return (
-    <div className={classes.container}>
+    <Link href={`/${name}`} className={classes.container}>
       <div className={classes.badge}>{67}</div>
       <p>
         Name: <span className={classes.span}>{name}</span>
@@ -20,7 +23,7 @@ const PeopleItem = ({ name, code, skill, src }) => {
         style={{ backgroundImage: `url(${src})` }}
       ></div>
       <div className={classes.votos}><span>👎</span><span>👍</span></div>
-    </div>
+    </Link>
   );
 };
 

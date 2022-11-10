@@ -1,4 +1,5 @@
 goals: To make a portal to see who is the best person, via voting, and  go to person/object profile if clicked.
 
-next: setup the list of people adequate to be voted.
-next: 
+next: setup the list of people adequate to be voted.=> Done
+next: make the vote system clickable and functional.
+next: make the items clickable and point to item specific details.
